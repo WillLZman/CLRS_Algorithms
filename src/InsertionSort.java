@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class InsertionSort {
     /*
-    Create array with N random elements given by user, then sort N elements by insertion sort displaying the
-    array after every step
+    Create array with N random elements given by user, then sort N elements by insertion sort
      */
     public static void main(String[] args) {
         System.out.println("Enter N elements to be generated:" );
@@ -27,7 +26,6 @@ public class InsertionSort {
         }
         System.out.println("");
         for (int i = 0; i<array.length; i++){
-
             System.out.print(array[i] +", ");
         }
     }
