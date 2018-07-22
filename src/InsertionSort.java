@@ -16,10 +16,10 @@ public class InsertionSort {
             array[i] = (int)(Math.random()*100);
             System.out.print(array[i] +", ");
         }
-        for (int j = 2; j<array.length;++j){
+        for (int j = 2; j<array.length;j++){
             int key = array[j];
             int i = j -1;
-            while(i>0 && array[i]>key){
+            while(i>=0 && array[i]>key){
                 array[i+1] = array[i];
                 i = i - 1;
             }
